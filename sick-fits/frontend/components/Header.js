@@ -1,12 +1,13 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
-export const Header = () => (
+export function Header() {
+  return (
     <header>
-        <div className="bar">
-            <Link href="/">Sick fits</Link>
-        </div>
-        <div className="sub-bar">
-            <p>Search</p>
-        </div>
+      <div className="bar">
+          <Link href="/">Sick fits</Link>
+      </div>
+      <div className="sub-bar">
+      </div>
     </header>
-)
+  );
+}
